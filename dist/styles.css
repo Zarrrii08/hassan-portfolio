@@ -129,3 +129,13 @@ h1 {
   .buttons-component svg { flex-basis: 20px; width: 20px; height: 20px; }
   .icons-component { gap: 16px; }
 }
+@media (max-width: 560px) and (max-height: 650px) {
+  .site-wrapper { padding-block: 16px; }
+  .inner { gap: 8px; }
+  .frame { width: 64px; height: 64px; border-width: 4px; }
+  h1 { font-size: 1.75rem; }
+  .divider-component { margin-block: 2px; }
+  .buttons-component { gap: 8px; }
+  .buttons-component a { min-height: 44px; padding-block: 8px; }
+  .icons-component a { width: 44px; height: 44px; }
+}
