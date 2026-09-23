@@ -1,6 +1,6 @@
-# Portfolio
+# Muhammad Hassan — Portfolio
 
-A responsive portfolio based on the supplied Carrd reference, with compact desktop and mobile layouts, accessible social/contact links, and staggered entrance animations that respect reduced-motion preferences.
+A responsive portfolio based on the supplied Carrd reference, with compact desktop and mobile layouts, accessible social/contact links, a dark purple theme, subtle background particles, and staggered entrance animations that respect reduced-motion preferences.
 
 ## Local preview
 
@@ -14,7 +14,7 @@ Run `python -m http.server 3000 --directory dist` from this folder and visit htt
 
 ## Personalization
 
-The original name, portrait, and links are retained at the user's request. Replace these when the final details are supplied. Also update the page title, description, image alt text, favicon initial, and social-preview metadata.
+The name is Muhammad Hassan. The reference portrait and links remain until the final assets are supplied. Replace these when the final details are supplied. Also update the page title, description, image alt text, favicon initial, and social-preview metadata.
 
 ## Deployment
 
