@@ -1,12 +1,23 @@
-# Portfolio clone
+# Portfolio
 
-Faithful standalone copy of https://salmansandhu.carrd.co/.
+A responsive portfolio based on the supplied Carrd reference, with compact desktop and mobile layouts, accessible social/contact links, and staggered entrance animations that respect reduced-motion preferences.
 
-## Preview
-Run `python -m http.server 3000 --directory dist` from this folder, then visit http://localhost:3000. No build or dependencies required.
+## Local preview
 
-## Personalize before launch
-Edit `dist/index.html` to replace the name, title, metadata, social URLs, CV URL, email, telephone, SMS and WhatsApp destinations. Replace `dist/assets/images/image01.jpg` with your portrait and update its alt text. The current content and links are the reference owner's.
+Run `python -m http.server 3000 --directory dist` from this folder and visit http://localhost:3000. No installation or build is required.
 
-## Hosting
-Upload the contents of `dist` to a static website host.
+## Files
+
+- `dist/index.html`: profile, metadata, social links, CV and contact destinations
+- `dist/styles.css`: responsive layout, colors and animations
+- `dist/assets/images/image01.jpg`: portrait
+
+## Personalization
+
+The original name, portrait, and links are retained at the user's request. Replace these when the final details are supplied. Also update the page title, description, image alt text, favicon initial, and social-preview metadata.
+
+## Deployment
+
+Vercel deployment is intentionally deferred until the final profile links are supplied. When ready, import this repository, select Other as the framework, leave the build command empty, and set the output directory to `dist`.
+
+The `.openai/hosting.json` file records the earlier private Sites preview. It is not needed to serve the static site.
