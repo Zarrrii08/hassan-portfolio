@@ -12,12 +12,8 @@ Run `python -m http.server 3000 --directory dist` from this folder and visit htt
 - `dist/styles.css`: responsive layout, colors and animations
 - `dist/assets/images/image01.jpg`: portrait
 
-## Personalization
+## Profile and deployment
 
-The name is Muhammad Hassan. The reference portrait and links remain until the final assets are supplied. Replace these when the final details are supplied. Also update the page title, description, image alt text, favicon initial, and social-preview metadata.
+The portfolio uses Muhammad Hassan's supplied portrait, social links, CV, email and Pakistan phone number (+92 330 9145816).
 
-## Deployment
-
-Vercel deployment is intentionally deferred until the final profile links are supplied. When ready, import this repository, select Other as the framework, leave the build command empty, and set the output directory to `dist`.
-
-The `.openai/hosting.json` file records the earlier private Sites preview. It is not needed to serve the static site.
+Netlify serves the `dist` folder using `netlify.toml`. No build command is needed.
